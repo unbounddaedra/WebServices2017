@@ -1,0 +1,39 @@
+<ContactsList>
+	<VersionDate>10/05/2017</VersionDate>
+	<VersionNumber>0.01</VersionNumber>
+	<Contact gender="M">
+		<FirstName>William</FirstName>
+		<LastName>Button</LastName>
+		<PhoneNumber>555-555-5555</PhoneNumber>
+		<FaxNumber>777-777-7777</FaxNumber>
+		<EmailAddress>no@no.com</EmailAddress>
+		</Contact>
+	<Contact gender="M">
+		<FirstName>John</FirstName>
+		<LastName>Smith</LastName>
+		<PhoneNumber>555-555-5555</PhoneNumber>
+		<FaxNumber>777-777-7777</FaxNumber>
+		<EmailAddress>no@no.com</EmailAddress>
+		</Contact>
+	<Contact gender="F">
+		<FirstName>Sarah</FirstName>
+		<LastName>Clark</LastName>
+		<PhoneNumber>555-555-5555</PhoneNumber>
+		<FaxNumber>777-777-7777</FaxNumber>
+		<EmailAddress>no@no.com</EmailAddress>
+		</Contact>
+	<Contact gender="M">
+		<FirstName>Alex</FirstName>
+		<LastName>Walker</LastName>
+		<PhoneNumber>555-555-5555</PhoneNumber>
+		<FaxNumber>777-777-7777</FaxNumber>
+		<EmailAddress>no@no.com</EmailAddress>
+		</Contact>
+	<Contact gender="M">
+		<FirstName>Carl</FirstName>
+		<LastName>Sagan</LastName>
+		<PhoneNumber>555-555-5555</PhoneNumber>
+		<FaxNumber>777-777-7777</FaxNumber>
+		<EmailAddress>no@no.com</EmailAddress>
+		</Contact>
+</ContactsList>

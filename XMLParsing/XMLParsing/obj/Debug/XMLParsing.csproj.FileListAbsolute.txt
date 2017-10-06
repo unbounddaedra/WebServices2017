@@ -100,3 +100,12 @@ C:\Users\bganek\Google Drive\WebServices 2016\XML\XMLParsing\XMLParsing\obj\Debu
 C:\Users\bganek\Google Drive\WebServices 2016\XML\XMLParsing\XMLParsing\obj\Debug\XMLParsing.csproj.GenerateResource.Cache
 C:\Users\bganek\Google Drive\WebServices 2016\XML\XMLParsing\XMLParsing\obj\Debug\XMLParsing.exe
 C:\Users\bganek\Google Drive\WebServices 2016\XML\XMLParsing\XMLParsing\obj\Debug\XMLParsing.pdb
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\bin\Debug\XMLParsing.exe.config
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\obj\Debug\XMLParsing.exe
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\obj\Debug\XMLParsing.pdb
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\bin\Debug\XMLParsing.exe
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\bin\Debug\XMLParsing.pdb
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\obj\Debug\XMLParsing.csprojResolveAssemblyReference.cache
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\obj\Debug\XMLParsing.Form1.resources
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\obj\Debug\XMLParsing.Properties.Resources.resources
+C:\Users\001325415\Desktop\WebServices2017\XMLParsing\XMLParsing\obj\Debug\XMLParsing.csproj.GenerateResource.Cache

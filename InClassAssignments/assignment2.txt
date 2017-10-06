@@ -1,0 +1,42 @@
+<InvoiceList>
+	<InvoiceDate>10/05/2017</InvoiceDate>
+	<BillingInfo isRetail ="yes">
+		<Name>NEIT</Name>
+		<Address>112 Blah Blah St</Address>
+		<City>East Greenich</City>
+		<State>RI</State>
+		<Zip>02818</Zip>
+	</BilingInfo>
+	<ShippingInfo>
+		<Name>NEIT</Name>
+		<Address>112 Blah Blah St</Address>
+		<City>East Greenich</City>
+		<State>RI</State>
+		<Zip>02818</Zip>
+	</ShippingInfo>
+	<ItemsList>
+		<Order>
+			<SKU>00001</SKU>
+			<Description>First Item in List</Description>
+			<Qty>1</Qty>
+			<UnitCost>10.00</UnitCost>
+			<AddtlCmnts>None</AddtlCmnts>
+		</Order>
+	</ItemsList>
+	<ItemsList>
+		<Order>
+			<SKU>00002</SKU>
+			<Description>Second Item in List</Description>
+			<Qty>1</Qty>
+			<UnitCost>15.00</UnitCost>
+			<AddtlCmnts>None</AddtlCmnts>
+		</Order>
+		<Order>
+			<SKU>00003</SKU>
+			<Description>Third Item in List</Description>
+			<Qty>4</Qty>
+			<UnitCost>22.00</UnitCost>
+			<AddtlCmnts>None</AddtlCmnts>
+		</Order>
+	</ItemsList>
+</InvoiceList>
