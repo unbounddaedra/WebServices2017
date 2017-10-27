@@ -121,7 +121,7 @@ namespace Lab4_Billing
 
             // ItemInformation newItem = new ItemInformation();
 
-            ItemInformation[] noItems = new ItemInformation[5];
+            
            
 
             string search = "/OrderFeed/Order[@id =" + OrderID + "]/Items/Item";
@@ -129,6 +129,8 @@ namespace Lab4_Billing
             string options = "/OrderFeed/Order[@id =" + OrderID + "]/Items/Item/CustomerOptions";
 
             NodeIterItems = nav.Select(search);
+
+            ItemInformation[] noItems = new ItemInformation[NodeIterItems.Count];
 
             NodeIterCustOpt = nav.Select(options);
 
