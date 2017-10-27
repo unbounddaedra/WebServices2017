@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e4b7dddc-44a3-4d0c-8f9d-25702ca5c00b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4442/ContactManagerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ContactManagerService.xsd" MetadataType="Schema" ID="948f7532-42c0-44b5-9595-08175a0fc9c3" SourceId="1" SourceUrl="http://localhost:4442/ContactManagerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ContactManagerService1.xsd" MetadataType="Schema" ID="8ab5c017-478f-4690-8ba9-4e4e3f97c3fc" SourceId="1" SourceUrl="http://localhost:4442/ContactManagerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ContactManagerService2.xsd" MetadataType="Schema" ID="76d0474b-7468-409c-871f-973c9b3089d6" SourceId="1" SourceUrl="http://localhost:4442/ContactManagerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ContactManager.wsdl" MetadataType="Wsdl" ID="757d8ddd-dade-41e1-bbe8-e17c33ff5100" SourceId="1" SourceUrl="http://localhost:4442/ContactManagerService.svc?wsdl" />
+    <MetadataFile FileName="ContactManagerService.disco" MetadataType="Disco" ID="63e8b053-75ce-4227-8bbb-dc62c1d542c1" SourceId="1" SourceUrl="http://localhost:4442/ContactManagerService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

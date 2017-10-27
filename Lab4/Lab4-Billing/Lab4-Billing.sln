@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4-Billing", "Lab4-Billing\Lab4-Billing.csproj", "{52E0797A-FD22-4CBE-8C88-8243E380E939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersConsole", "OrdersConsole\OrdersConsole.csproj", "{A6517F3D-C14B-4A43-BE0E-B8FC982080FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52E0797A-FD22-4CBE-8C88-8243E380E939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E0797A-FD22-4CBE-8C88-8243E380E939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E0797A-FD22-4CBE-8C88-8243E380E939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E0797A-FD22-4CBE-8C88-8243E380E939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6517F3D-C14B-4A43-BE0E-B8FC982080FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6517F3D-C14B-4A43-BE0E-B8FC982080FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6517F3D-C14B-4A43-BE0E-B8FC982080FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6517F3D-C14B-4A43-BE0E-B8FC982080FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

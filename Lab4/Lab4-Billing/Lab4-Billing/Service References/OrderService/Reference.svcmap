@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="81c48b76-dd94-4f10-8578-4afafdc4ae77" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5225/OrdersBilling.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Lab4Billing.wsdl" MetadataType="Wsdl" ID="7042da16-9db8-40bd-a553-7b1687c26260" SourceId="1" SourceUrl="http://localhost:5225/OrdersBilling.svc?wsdl" />
+    <MetadataFile FileName="OrdersBilling.xsd" MetadataType="Schema" ID="b1b46d5d-c6c4-4f43-8be5-4a7272dfa154" SourceId="1" SourceUrl="http://localhost:5225/OrdersBilling.svc?xsd=xsd0" />
+    <MetadataFile FileName="OrdersBilling1.xsd" MetadataType="Schema" ID="af6211b9-3c98-4595-b9da-bc23c5a61a71" SourceId="1" SourceUrl="http://localhost:5225/OrdersBilling.svc?xsd=xsd2" />
+    <MetadataFile FileName="OrdersBilling2.xsd" MetadataType="Schema" ID="1782c8ba-82c8-4824-98b5-2a42a1c8088e" SourceId="1" SourceUrl="http://localhost:5225/OrdersBilling.svc?xsd=xsd1" />
+    <MetadataFile FileName="OrdersBilling.disco" MetadataType="Disco" ID="2ef50125-a31f-4898-b918-c3d9b14d44ad" SourceId="1" SourceUrl="http://localhost:5225/OrdersBilling.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
