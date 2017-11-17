@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body onload="GetData()">
+
+    <script type="text/javascript">
+
+    //  http://api.geonames.org/postalCodeSearch?postalcode=" + zipcode + "&country=US&radius=10&username=wjbuttonbiv4"
+
+            function GetData() {
+                var url = 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=481af27a50774eb1a29c32bca3526891';
+                // Cross platform xmlhttprequest
+                alert(url);
+                // Create xmlhttprequest object
+                var xmlhttp = null;
+                if (window.XMLHttpRequest) {
+                    xmlhttp = new XMLHttpRequest();
+                    //make sure that Browser supports overrideMimeType
+                    if (typeof xmlhttp.overrideMimeType != 'undefined') { xmlhttp.overrideMimeType('text/xml'); }
+                } else if (window.ActiveXObject) {
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                } else {
+                    alert('Perhaps your browser does not support xmlhttprequests?');
+                }
+
+                // Create an HTTP GET request
+                xmlhttp.open('GET', url, true);
+
+                // Set the callback function
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                        // Output the results
+                        //alert(xmlhttp.responseText);
+                        //var myObj = eval(xmlhttp.responseText);
+                      //  var myObj = eval('(' + xmlhttp.responseText + ')');
+                        var i;
+                        // using the native parser
+                        var myObj = JSON.parse(xmlhttp.responseText);
+
+                        console.log(myObj);
+
+/*
+                        for (j = 0; j < myObj.postalCodes.length; j++) {
+                            document.write(myObj.postalCodes[j].postalCode);
+                            document.write('<br/>');
+                            document.write(myObj.postalCodes[j].placeName);
+
+                        }
+
+                        */
+
+                        myObj.results.forEach(function (results) {
+                            document.writeln(results.title) + " " + document.writeln(results.byline) + document.writeln('<a href=' + results.short_url + '>link </a>');
+                            document.writeln('<br/><hr/>');
+                            
+                        })
+                        
+
+                    } else {
+                        // waiting for the call to complete
+                    }
+                };
+
+                // Make the actual request
+                xmlhttp.send(null);
+
+               // GetData();
+
+            }</script>
+
+    <style type="text/css">
+        .style1 {
+            width: 100%;
+        }
+    </style>
+   
+    
+        <form id="myForm">
+            <table class="style1">
+
+                <tr>
+                    <td>
+                        &nbsp;
+                        
+                    </td>
+
+                    
+                    
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+

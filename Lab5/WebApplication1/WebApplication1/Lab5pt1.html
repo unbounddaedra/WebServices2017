@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    //  http://api.geonames.org/postalCodeSearch?postalcode=" + zipcode + "&country=US&radius=10&username=wjbuttonbiv4"
+
+            function GetData() {
+                var url = 'http://api.geonames.org/postalCodeSearchJSON?formatted=true&postalcode=' + myForm.txtZipCode.value + '&maxRows=10&username=wjbuttonbiv4&style=full';
+                // Cross platform xmlhttprequest
+                alert(url);
+                // Create xmlhttprequest object
+                var xmlhttp = null;
+                if (window.XMLHttpRequest) {
+                    xmlhttp = new XMLHttpRequest();
+                    //make sure that Browser supports overrideMimeType
+                    if (typeof xmlhttp.overrideMimeType != 'undefined') { xmlhttp.overrideMimeType('text/xml'); }
+                } else if (window.ActiveXObject) {
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                } else {
+                    alert('Perhaps your browser does not support xmlhttprequests?');
+                }
+
+                // Create an HTTP GET request
+                xmlhttp.open('GET', url, true);
+
+                // Set the callback function
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                        // Output the results
+                        //alert(xmlhttp.responseText);
+                        //var myObj = eval(xmlhttp.responseText);
+                      //  var myObj = eval('(' + xmlhttp.responseText + ')');
+                        var i;
+                        // using the native parser
+                        var myObj = JSON.parse(xmlhttp.responseText);
+                        
+
+                        for (j = 0; j < myObj.postalCodes.length; j++) {
+                            document.write(myObj.postalCodes[j].postalCode);
+                            document.write('<br/>');
+                            document.write(myObj.postalCodes[j].placeName);
+                                
+                        }
+
+
+                    } else {
+                        // waiting for the call to complete
+                    }
+                };
+
+                // Make the actual request
+                xmlhttp.send(null);
+
+                function Button1_onclick() {
+
+                }
+
+            }</script>
+
+    <style type="text/css">
+        .style1 {
+            width: 100%;
+        }
+    </style>
+    </head>
+    <body>
+        <form id="myForm">
+            <table class="style1">
+                
+                <tr>
+                    <td>
+                        &nbsp;
+                        <input id="txtZipCode" type="text" /></td>
+                    
+                        <input id="Button1" type="button" value="Get Data" onclick="GetData();" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

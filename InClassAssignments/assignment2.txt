@@ -22,8 +22,6 @@
 			<UnitCost>10.00</UnitCost>
 			<AddtlCmnts>None</AddtlCmnts>
 		</Order>
-	</ItemsList>
-	<ItemsList>
 		<Order>
 			<SKU>00002</SKU>
 			<Description>Second Item in List</Description>
